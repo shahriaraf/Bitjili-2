@@ -2,15 +2,18 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1f1f1f] text-white px-4 sm:px-6 py-10">
+    <footer className="bg-[#1f1f1f] text-white px-4 sm:px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left">
         {/* Column 1: Logo */}
         <div className="flex justify-center md:justify-start">
-          <img
-            className="w-[150px] mx-auto md:mx-0"
+            <div>
+            <img
+            className="w-[120px] md:w-[150px]"
             src="https://betjiliaffiliates.com/wp-content/uploads/2024/02/BETJILI-Logo.png"
             alt="BETJILI"
           />
+            </div>
+        
         </div>
 
         {/* Column 2: Quick Links */}
@@ -65,8 +68,8 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom */}
-      <div className="text-center text-[#989898] text-sm mt-10 pt-6 border-t border-gray-700">
-        © All rights reserved by Betjili
+      <div className="text-center text-[#989898] text-sm mt-10 pt-6 pb-2">
+        © all rights reserved by Betjili
       </div>
     </footer>
   );

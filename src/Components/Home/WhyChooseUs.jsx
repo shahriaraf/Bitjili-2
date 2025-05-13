@@ -5,49 +5,52 @@ const features = [
   {
     title: 'Free Registration',
     description: 'Free Affiliate account setup and login credentials are provided after approval',
-    icon: '/icons/free-registration.png',
+    url: 'https://i.ibb.co/bM46ZQhD/ic-1-2.png',
   },
   {
     title: 'No Investment',
     description: 'No monetary investment is required to start up. Just drive your traffic and start earning',
-    icon: '/icons/no-investment.png',
+    url: 'https://i.ibb.co/LXGJbsQY/ic-2-2.png',
   },
   {
     title: 'Quick Payment',
     description: 'BetJil Affiliates shares profit weekly & monthly. Get quick revenue share payment',
-    icon: '/icons/quick-payment.png',
+    url: 'https://i.ibb.co/RpnbPw0d/ic-3-2.png',
   },
   {
     title: 'Revenue Share',
     description: 'Earn up to 45% weekly or 50% monthly revenue share from your downline',
-    icon: '/icons/revenue-share.png',
+    url: 'https://i.ibb.co/p6Kry9zj/ic-4-2.png',
   },
   {
     title: 'Affiliate Manager',
     description: 'BetJil affiliates are assigned exclusive affiliate managers for support',
-    icon: '/icons/affiliate-manager.png',
+    url: 'https://i.ibb.co/FLPdgMWg/ic-5-2.png',
   },
   {
     title: 'Transparency',
     description: 'BetJil affiliates can easily access their revenue share data earned from their downline members',
-    icon: '/icons/transparency.png',
+    url: 'https://i.ibb.co/d0WQyDZb/ic-6-2.png',
   },
 ];
 
 const WhyChooseUs = () => {
   return (
-    <section className="bg-yellow-400 py-16 text-center">
-      <h2 className="text-4xl font-bold mb-10">WHY CHOOSE US ?</h2>
-      <div className="flex flex-wrap justify-center gap-6 px-4">
+    <section className="py-16 text-center" style={{
+        backgroundImage: `url('https://i.ibb.co/3mNXj4Tx/bg-4-1.jpg')`,
+      }}>
+      <h2 className="text-6xl font-bold mb-10">WHY CHOOSE US ?</h2>
+      <div className="flex flex-wrap justify-center gap-5 pt-20 px-4">
         {features.map((item, index) => (
-          <div
-            key={index}
-            className="bg-black text-white w-64 p-6 rounded-xl shadow-md hover:scale-105 transition-transform"
-          >
-            <img src={item.icon} alt={item.title} className="h-14 mx-auto mb-4" />
-            <h4 className="text-lg font-semibold mb-2">{item.title}</h4>
-            <p className="text-sm">{item.description}</p>
-          </div>
+           <div key={index} className='border-2 bg-black border-white rounded-3xl w-[210px] h-[300px] text-white relative'>
+           <img className='absolute -top-22 left-9 w-[150px]' src={item.url} alt="" />
+           <div className='bg-black font-semibold text-center rounded-3xl w-[206px] h-[100px] top-11 absolute'>
+               <p className='text-[#ffe400] text-[28px] w-10/12 m-auto'>{item.title}</p>
+           </div>
+           <div className='bg-[#ffe400] text-center rounded-b-3xl h-[165px] mt-28'>
+               <p className='text-black text-sm font-semibold pt-11 w-11/12 m-auto'>{item.description}</p>
+           </div>
+       </div>
         ))}
       </div>
     </section>

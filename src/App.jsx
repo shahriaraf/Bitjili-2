@@ -22,6 +22,8 @@ function App() {
     <Testimonials></Testimonials>
     <ThirdBanner></ThirdBanner>
     <Footer></Footer>
+
+    
     </>
   )
 }
