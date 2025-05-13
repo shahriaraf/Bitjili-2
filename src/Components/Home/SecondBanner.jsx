@@ -15,7 +15,7 @@ const SecondBanner = () => {
              <img className="w-[215px] h-[38px]" src="https://i.ibb.co/ccwBFBm7/logo-2-2.png" alt="" />
         </div><br />
          
-          <p className="text-lg leading-relaxed font-light ">
+          <p className="text-sm md:text-lg leading-relaxed font-light ">
             “Experience the best online casino tailored for players from India,
             Bangladesh, Vietnam, Pakistan, the Philippines, Thailand, Myanmar
             and Nepal at Betjili. Dive into a world of thrilling games, sports

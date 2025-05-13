@@ -19,7 +19,7 @@ const ProductsSection = () => {
       <div className="max-w-[1050px] mx-auto px-4 text-center">
         <h2 className="text-3xl font-extrabold mb-10">PRODUCTS</h2>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4">
           {products.map((product, index) => (
             <div
               key={index}
