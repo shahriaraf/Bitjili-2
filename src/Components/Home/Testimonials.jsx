@@ -89,24 +89,24 @@ const Testimonials = () => {
     return (
         <section className="bg-white py-16 text-center relative">
             <h2 className="text-4xl font-bold mb-10">TESTIMONIALS</h2>
-            <div className="relative px-4 md:px-6 max-w-screen-xl mx-auto -mx-3">
+            <div className="relative px-8 md:px-6 max-w-screen-xl mx-auto">
                 <Slider {...settings}>
                     {testimonials.map((testimonial, index) => (
                         <div key={index} className="px-3">
                             <div className="max-w-[360px] h-[313px] border border-black rounded-3xl mx-auto">
-                                <div className="bg-[#ffe400] h-[180px] rounded-t-3xl text-center italic font-medium text-[13px]">
-                                    <p className="max-w-10/12 m-auto pt-5">{testimonial.text}</p>
+                                <div className="bg-[#ffe400] h-[180px] rounded-t-3xl text-center italic font-medium text-[11px] md:text-[13px]">
+                                    <p className="w-full px-2 md:max-w-10/12 m-auto pt-5">{testimonial.text}</p>
                                 </div>
                                 <div className="bg-black h-[132px] text-white text-center rounded-b-3xl relative">
                                     <img
-                                        className="absolute -top-10 left-1/2 transform -translate-x-1/2 w-[76px] border-4 border-[#ffe400] rounded-full"
+                                        className="absolute -top-10 left-1/2 transform -translate-x-1/2 w-[65px] md:w-[76px] border-4 border-[#ffe400] rounded-full"
                                         src={testimonial.url}
                                         alt={testimonial.name}
                                     />
-                                    <div className="pt-12 text-sm">
+                                    <div className="pt-12 text-[11px] md:text-sm">
                                         <p className="text-[#ffe400]">{testimonial.name}</p>
                                         <p className="text-white">{testimonial.role}</p>
-                                        <p className="text-[#989898] text-[12px]">{testimonial.identity}</p>
+                                        <p className="text-[#989898] text-[10px] md:text-[12px]">{testimonial.identity}</p>
                                     </div>
                                 </div>
                             </div>

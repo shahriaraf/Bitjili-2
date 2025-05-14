@@ -8,6 +8,8 @@ import Testimonials from './Components/Home/Testimonials'
 import ThirdBanner from './Components/Home/ThirdBanner'
 import WhyChooseUs from './Components/Home/WhyChooseUs'
 import Navbar from './Components/Navbar/Navbar'
+import 'animate.css';
+
 function App() {
 
 
