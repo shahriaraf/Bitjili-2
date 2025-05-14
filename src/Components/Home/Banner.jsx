@@ -1,8 +1,10 @@
 import React from "react";
+import Flags from "../Flags";
 
 const Banner = () => {
   return (
     <section className="w-full bg-black">
+        <Flags></Flags>
       <div className="max-w-6xl mx-auto py-12 px-6 flex flex-col md:flex-row items-center justify-between gap-8">
         
         {/* Left Side: Text and Buttons */}
