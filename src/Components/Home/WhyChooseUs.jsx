@@ -1,4 +1,3 @@
-// WhyChooseUs.jsx
 import React from 'react';
 
 const features = [
@@ -36,21 +35,38 @@ const features = [
 
 const WhyChooseUs = () => {
   return (
-    <section className="py-16 text-center" style={{
+    <section
+      className="py-16 text-center bg-cover bg-center"
+      style={{
         backgroundImage: `url('https://i.ibb.co/3mNXj4Tx/bg-4-1.jpg')`,
-      }}>
-      <h2 className="text-6xl font-bold mb-10">WHY CHOOSE US ?</h2>
-      <div className="flex flex-wrap justify-center gap-5 pt-20 px-4">
+      }}
+    >
+      <h2 className="text-[25px] sm:text-[40px] md:text-[52px] font-bold mb-15 text-black">
+        WHY CHOOSE US?
+      </h2>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-16 md:px-32">
         {features.map((item, index) => (
-           <div key={index} className='border-2 bg-black border-white rounded-3xl w-[210px] h-[300px] text-white relative'>
-           <img className='absolute -top-22 left-9 w-[150px]' src={item.url} alt="" />
-           <div className='bg-black font-semibold text-center rounded-3xl w-[206px] h-[100px] top-11 absolute'>
-               <p className='text-[#ffe400] text-[28px] w-10/12 m-auto'>{item.title}</p>
-           </div>
-           <div className='bg-[#ffe400] text-center rounded-b-3xl h-[165px] mt-28'>
-               <p className='text-black text-sm font-semibold pt-11 w-11/12 m-auto'>{item.description}</p>
-           </div>
-       </div>
+          <div
+            key={index}
+            className="border-2 bg-black border-white rounded-3xl w-[170px] h-[250px] text-white relative mx-auto"
+          >
+            <img
+              className="absolute -top-16 left-5 w-[130px]"
+              src={item.url}
+              alt={item.title}
+            />
+            <div className="bg-black font-semibold text-center rounded-3xl w-[166px] h-[74px] top-11 absolute">
+              <p className="text-[#ffe400] text-[21px] w-10/12 m-auto">
+                {item.title}
+              </p>
+            </div>
+            <div className="bg-[#ffe400] text-center rounded-b-3xl h-[140px] mt-[90px]">
+              <p className="text-black text-[12px] font-semibold pt-11 w-10/12 m-auto">
+                {item.description}
+              </p>
+            </div>
+          </div>
         ))}
       </div>
     </section>
