@@ -5,3 +5,23 @@ body {
   background-color: black;
 
 }
+
+
+/* App.css */
+#google_translate_element {
+  display: hidden;
+}
+
+.VIpgJd-ZVi9od-ORHb{
+  display: none;
+}
+.goog-te-banner-frame.skiptranslate,
+.goog-te-gadget-icon {
+  display: none !important;
+}
+body {
+  top: 0px !important;
+}
+.skiptranslate{
+  display: none;
+}

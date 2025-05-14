@@ -30,10 +30,10 @@ const ThirdBanner = () => {
               sign up
             </button>
             <button className="uppercase font-semibold text-lg rounded-full py-3 text-white bg-[#25D366] hover:bg-[#1A9447]">
-              whatsapp
+              <a href="https://wa.me/16802003651">whatsapp</a>
             </button>
             <button className="uppercase font-semibold text-lg rounded-full py-3 text-white bg-[#0078D7] hover:bg-[#005496]">
-              telegram
+              <a href="https://t.me/+16802003651">telegram</a>
             </button>
           </div>
 

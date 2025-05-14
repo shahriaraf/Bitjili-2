@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-[#1f1f1f] text-white px-4 sm:px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left">
         {/* Column 1: Logo */}
-        <div className="flex justify-center md:justify-start">
+        <div className="flex justify-center md:justify-start mt-10">
             <div>
             <img
             className="w-[120px] md:w-[150px]"

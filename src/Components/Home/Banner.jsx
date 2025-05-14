@@ -9,12 +9,12 @@ const Banner = () => {
         
         {/* Left Side: Text and Buttons */}
         <div className="w-full md:w-3/5 text-center md:text-left">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase font-bold leading-tight mb-4 text-[#ffe400]">
+          <h1 data-key="title" className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase font-bold leading-tight mb-4 text-[#ffe400]">
             Be A Partner
           </h1>
 
           <div className="flex flex-row sm:flex-row items-center justify-center md:justify-start gap-3 md:gap-6 mb-4">
-            <p className="text-3xl md:text-6xl text-white uppercase">With</p>
+            <p data-key="description" className="text-3xl md:text-6xl text-white uppercase">With</p>
             <div>
               <img
                 className="w-[120px] md:w-[250px] h-auto pt-0.5 md:pt-2"
@@ -24,7 +24,7 @@ const Banner = () => {
             </div>
           </div>
 
-          <p className="text-lg md:text-4xl md:mb-4 text-white uppercase">
+          <p data-key="description" className="text-lg md:text-4xl md:mb-4 text-white uppercase">
             Zero Investment
           </p>
           <p className="text-lg md:text-4xl md:mb-4 text-white uppercase">

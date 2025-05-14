@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+
 const testimonials = [
     {
         text: '“BetJili knocks it out of the park on both. Their JILI slot collection is massive, with something for every theme you can imagine. Plus, the games load lightning fast and play flawlessly. They even have some exclusive JILI titles I could not find anywhere else.”',

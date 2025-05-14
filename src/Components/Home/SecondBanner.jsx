@@ -11,22 +11,27 @@ const SecondBanner = () => {
 
         {/* Right Content */}
         <div className="w-full md:w-1/2 text-black">
-        <div className="flex justify-center">
-             <img className="w-[215px] h-[38px]" src="https://i.ibb.co/ccwBFBm7/logo-2-2.png" alt="" />
-        </div><br />
-         
+          <div className="flex justify-center">
+            <img className="w-[215px] h-[38px]" src="https://i.ibb.co/ccwBFBm7/logo-2-2.png" alt="" />
+          </div><br />
+
           <p className="text-sm md:text-lg leading-relaxed font-light ">
-            “Experience the best online casino tailored for players from India,
-            Bangladesh, Vietnam, Pakistan, the Philippines, Thailand, Myanmar
-            and Nepal at Betjili. Dive into a world of thrilling games, sports
-            betting, and exclusive deposit bonuses. At Betjili, we believe that
-            online gambling should be a fun and exciting form of entertainment.
-            <br /><br />
-            Earn weekly & monthly recurring revenue with Betjili’s affiliate
-            program! Easy-to-use interface, dedicated Pro-affiliate managers,
-            and mobile access make promoting Betjili a breeze. Get payouts up
-            to 45% weekly & fixed 50% monthly based on your downline’s
-            performance. Join Betjili’s affiliate program today!”
+            The Ultimate Online Casino Experience for South Asia
+
+            Join thousands of players from India, Bangladesh, Vietnam, Pakistan, the Philippines, Thailand, Myanmar, and Nepal. Enjoy thrilling casino games, live sports betting, and exclusive deposit bonuses—all in one place.
+
+            Now Available for Bangladeshi Players:
+            Deposit and withdraw seamlessly using bKash, Nagad, Rocket, Upay, and local bank transfers.
+
+            Enjoy Local Convenience with Transparent Fees:
+
+            5% commission on every deposit
+
+            3.5% commission on every withdrawal
+            Fast, secure, and hassle-free transactions tailored for users in Bangladesh.
+
+
+            Join Betjili today—play your favorite games, bet on live sports, and enjoy smooth local payments!
           </p>
         </div>
       </div>
