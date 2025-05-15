@@ -2,7 +2,11 @@
 import { useState } from "react";
 
 const languages = [
-  { code: "en", name: "English", },
+  { 
+    code: "en", 
+    name: "English", 
+    flag: "https://i.ibb.co/DH7WGsbZ/country-united-kingdom-united-kingdom-flag-vector-illustration-601298-5197.jpg" 
+  },
   { code: "bn", name: "বাংলা", flag: "https://betjiliaffiliates.com/wp-content/uploads/2024/04/BD-1.png" },
   { code: "hi", name: "हिन्दी", flag: "https://betjiliaffiliates.com/wp-content/uploads/2024/04/IN-1.png" },
   { code: "ur", name: "اردو", flag: "https://betjiliaffiliates.com/wp-content/uploads/2024/04/PK-1.png" },
@@ -11,6 +15,7 @@ const languages = [
   { code: "my", name: "မြန်မာ", flag: "https://betjiliaffiliates.com/wp-content/uploads/2024/10/Betjili-MMK-Icon.png" },
   { code: "fil", name: "Filipino", flag: "https://betjiliaffiliates.com/wp-content/uploads/2024/04/PH-1.png" },
 ];
+
 
 const LanguageSwitcher = () => {
   const [isOpen, setIsOpen] = useState(false);

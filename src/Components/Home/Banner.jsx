@@ -1,12 +1,13 @@
 import React from "react";
 import Flags from "../Flags";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
     <section className="w-full bg-black">
-        <Flags></Flags>
+      <Flags></Flags>
       <div className="max-w-6xl mx-auto py-12 px-6 flex flex-col md:flex-row items-center justify-between gap-8">
-        
+
         {/* Left Side: Text and Buttons */}
         <div className="w-full md:w-3/5 text-center md:text-left">
           <h1 data-key="title" className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase font-bold leading-tight mb-4 text-[#ffe400]">
@@ -39,12 +40,17 @@ const Banner = () => {
           </p>
 
           <div className="hidden md:flex md:flex-row md:gap-4 md:justify-start">
-            <button className="text-lg bg-[#ffe400] hover:bg-[#b6b07b] text-black px-6 py-2 rounded-md font-bold">
-              Register
-            </button>
-            <button className="text-lg bg-[#ffe400] hover:bg-[#b6b07b] text-black px-6 py-2 rounded-md font-bold">
-              Login
-            </button>
+            <Link to='/register'>
+              <button className="text-lg bg-[#ffe400] hover:bg-[#b6b07b] text-black px-6 py-2 rounded-md font-bold">
+                Register
+              </button>
+            </Link>
+            <Link to='/login'>
+              <button className="text-lg bg-[#ffe400] hover:bg-[#b6b07b] text-black px-6 py-2 rounded-md font-bold">
+                Login
+              </button>
+            </Link>
+
           </div>
         </div>
 
@@ -57,13 +63,18 @@ const Banner = () => {
           />
         </div>
         <div className="flex md:hidden flex-raw gap-3 justify-center md:justify-start">
-            <button className="text-sm bg-[#ffe400] hover:bg-[#b6b07b] text-black px-5 py-1.5 rounded-md font-bold">
-              Register
-            </button>
-            <button className="text-sm bg-[#ffe400] hover:bg-[#b6b07b] text-black px-5 py-1.5 rounded-md font-bold">
-              Login
-            </button>
-          </div>
+        <Link to='/register'>
+          <button className="text-sm bg-[#ffe400] hover:bg-[#b6b07b] text-black px-5 py-1.5 rounded-md font-bold">
+            Register
+          </button>
+          </Link>
+
+          <Link to='/login'>
+          <button className="text-sm bg-[#ffe400] hover:bg-[#b6b07b] text-black px-5 py-1.5 rounded-md font-bold">
+            Login
+          </button>
+          </Link>
+        </div>
       </div>
     </section>
   );

@@ -21,22 +21,22 @@ const Commission = () => {
         </div>
 
         {/* Icons with Labels */}
-        <div className="flex flex-nowrap overflow-x-auto justify-start gap-6 max-w-6xl mx-auto mb-10">
+        <div className="flex flex-nowrap overflow-x-auto justify-start gap-6 max-w-5xl m-auto mb-10">
           {[
             { img: 'c1-1.png', text: 'PLAYER WIN/LOSS' },
             { img: 'c2-1.png', text: '20% OPERATION COST' },
             { img: 'c3-1.png', text: 'BONUS' },
             { img: 'c4-1.png', text: '2.5% PAYMENT FEE' },
-            { img: 'c5-1.png', text: 'AFFILIATE EARNS (WEEKLY UP TO 45% OR 50% MONTHLY) OF TOTAL PROFIT' },
+            { img: 'c5-1.png', text: 'AFFILIATE EARNS' },
           ].map((item, idx) => (
             <div
               key={idx}
-              className="flex bg-[#ffe400] flex-col items-center justify-center p-4 rounded-sm w-48 text-center"
+              className="flex bg-[#ffe400] flex-col items-center justify-center p-4 rounded-sm w-full h-32 md:h-56 md:w-48 text-center"
             >
               <img
                 src={`https://betjiliaffiliates.com/wp-content/uploads/2024/04/${item.img}`}
                 alt="affiliate commission"
-                className="w-16 h-16 mb-2"
+                className="w-8 h-8 md:w-16 md:h-16 mb-2"
               />
               <p className="text-sm">{item.text}</p>
             </div>
