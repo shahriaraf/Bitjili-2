@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const SignUpPage = () => {
   return (
@@ -6,7 +7,7 @@ const SignUpPage = () => {
       <div className="bg-gray-100 rounded-lg shadow-md w-80 md:w-96 p-6">
         <h2 className="text-2xl font-bold mb-4 flex items-center">
           <span className="inline-block w-1 h-6 bg-gray-800 mr-2"></span>
-          Sign Up
+          Sign In
         </h2>
 
         <form className="space-y-4">
@@ -33,7 +34,7 @@ const SignUpPage = () => {
         </form>
 
         <div className="flex justify-between items-center mt-4 text-sm">
-          <a href="#" className="text-teal-600 font-semibold">Sign In!</a>
+          <Link to='/register' className="text-teal-700 font-semibold">Sign Up!</Link>
           <a href="#" className="text-gray-600">Forgot password?</a>
         </div>
       </div>

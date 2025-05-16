@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ThirdBanner = () => {
   return (
@@ -26,9 +27,9 @@ const ThirdBanner = () => {
 
           {/* Buttons */}
           <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 gap-4 max-w-md mx-auto md:mx-0">
-            <button className="uppercase font-semibold text-lg rounded-full py-3 text-white bg-[#F7DD00] hover:bg-[#A89600]">
+            <Link to='/register' className="uppercase font-semibold text-center text-lg rounded-full py-3 text-white bg-[#F7DD00] hover:bg-[#A89600]">
               sign up
-            </button>
+            </Link>
             <button className="uppercase font-semibold text-lg rounded-full py-3 text-white bg-[#25D366] hover:bg-[#1A9447]">
               <a href="https://wa.me/16802003651">whatsapp</a>
             </button>
@@ -38,26 +39,26 @@ const ThirdBanner = () => {
           </div>
 
           {/* Social Icons */}
-          <div className="pt-8">
-            <p className="text-xl md:text-2xl pb-4 text-white">FOLLOW US ON:</p>
-            <div className="flex justify-center md:justify-start gap-4">
+          <div className="pt-10 pb-5">
+            <p className="text-xl md:text-2xl pb-4 md:pb-10 text-center text-white">FOLLOW US ON</p>
+            <div className="flex justify-center md:justify-center gap-4 md:gap-8">
               <img
-                className="w-6 h-6"
+                className="w-6 h-6 md:w-11 md:h-11"
                 src="https://i.ibb.co/mVZnsCLz/social-1-1.png"
                 alt="Facebook"
               />
               <img
-                className="w-6 h-6"
+                className="w-6 h-6 md:w-11 md:h-11"
                 src="https://i.ibb.co/fd9vKw4L/social-2-1.png"
                 alt="Twitter"
               />
               <img
-                className="w-6 h-6"
+                className="w-6 h-6 md:w-11 md:h-11"
                 src="https://i.ibb.co/qLMDX7YP/social-3-1.png"
                 alt="Instagram"
               />
               <img
-                className="w-6 h-6"
+                className="w-6 h-6 md:w-11 md:h-11"
                 src="https://i.ibb.co/6J8HF2QF/social-4-1.png"
                 alt="LinkedIn"
               />

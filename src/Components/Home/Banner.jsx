@@ -41,12 +41,12 @@ const Banner = () => {
 
           <div className="hidden md:flex md:flex-row md:gap-4 md:justify-start">
             <Link to='/register'>
-              <button className="text-lg bg-[#ffe400] hover:bg-[#b6b07b] text-black px-6 py-2 rounded-md font-bold">
+              <button className="text-lg bg-[#ffe400] hover:bg-[#A89600] text-black px-6 py-2 rounded-md font-bold">
                 Register
               </button>
             </Link>
             <Link to='/login'>
-              <button className="text-lg bg-[#ffe400] hover:bg-[#b6b07b] text-black px-6 py-2 rounded-md font-bold">
+              <button className="text-lg bg-[#ffe400] hover:bg-[#A89600] text-black px-6 py-2 rounded-md font-bold">
                 Login
               </button>
             </Link>
@@ -64,13 +64,13 @@ const Banner = () => {
         </div>
         <div className="flex md:hidden flex-raw gap-3 justify-center md:justify-start">
         <Link to='/register'>
-          <button className="text-sm bg-[#ffe400] hover:bg-[#b6b07b] text-black px-5 py-1.5 rounded-md font-bold">
+          <button className="text-sm bg-[#ffe400] hover:bg-[#A89600] text-black px-5 py-1.5 rounded-md font-bold">
             Register
           </button>
           </Link>
 
           <Link to='/login'>
-          <button className="text-sm bg-[#ffe400] hover:bg-[#b6b07b] text-black px-5 py-1.5 rounded-md font-bold">
+          <button className="text-sm bg-[#ffe400] hover:bg-[#A89600] text-black px-5 py-1.5 rounded-md font-bold">
             Login
           </button>
           </Link>

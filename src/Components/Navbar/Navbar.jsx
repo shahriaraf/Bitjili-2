@@ -52,10 +52,10 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-6 text-white font-medium">
           <ul className="flex space-x-6 text-[17px]">
-            <li className="hover:text-[#ffe400] cursor-pointer"><a href="#revenue-share">Revenue Share</a></li>
-            <li className="hover:text-[#ffe400] cursor-pointer">FAQ</li>
-            <li className="hover:text-[#ffe400] cursor-pointer"><a href="#about-us">About Us</a></li>
-            <li className="hover:text-[#ffe400] cursor-pointer"><a href="#contact-us">Contact Us</a></li>
+            <li className="hover:text-[#B29500] cursor-pointer"><a href="#revenue-share">Revenue Share</a></li>
+            <li className="hover:text-[#B29500] cursor-pointer">FAQ</li>
+            <li className="hover:text-[#B29500] cursor-pointer"><a href="#about-us">About Us</a></li>
+            <li className="hover:text-[#B29500] cursor-pointer"><a href="#contact-us">Contact Us</a></li>
           </ul>
           <Link to='/register'>
             <button className="border border-[#ffe400] px-6 py-2 rounded-md font-semibold">
@@ -64,7 +64,7 @@ const Navbar = () => {
 
           </Link>
           <Link to='/login'>
-          <button className="bg-[#ffe400] hover:bg-[#b6b07b] text-black px-6 py-2 rounded-md font-semibold">
+          <button className="bg-[#ffe400] hover:bg-[#A89600] text-black px-6 py-2 rounded-md font-semibold">
             Login
           </button>
           </Link>
